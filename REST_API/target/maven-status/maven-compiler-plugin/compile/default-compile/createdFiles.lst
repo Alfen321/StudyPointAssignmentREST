@@ -1,0 +1,10 @@
+entity\Owner.class
+entity\Event.class
+rest\ApplicationConfig.class
+entity\Owner_.class
+entity\Event_.class
+entity\Pet.class
+factory\Factory.class
+rest\GenericResource.class
+entity\Pet_.class
+run\Tester.class

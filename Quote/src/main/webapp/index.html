@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>QuoteS</h1>
+        
+        <table>
+            <tr><td>METHOD</td><td>URL</td></tr>
+            <tr><td>GET</td><td>api/Quote/all</td></tr>
+            <tr><td>GET</td><td>api/Quote/{id}</td></tr>
+            <tr><td>POST</td><td>api/Quote</td></tr>
+            <tr><td>PUT</td><td>api/Quote</td></tr>
+            <tr><td>DELETE</td><td>api/Quote/{id}</td></tr>           
+        </table>
+
+        <h2>Quotes</h2>
+
+        Random Quote of the day: <div id="QuoteOfTheDay"></div>
+
+        <input id="randomQuotesRefresh" type="button" value="Random Quote" />
+        
+        <table id="TableQuotes">
+            <thead>
+                <tr><th>ID</th><th>Quote</th></tr>
+            </thead>
+            <tbody id ="TableQuotesBody">
+            </tbody>
+        </table>
+        
+        <input id="QuotesRefresh" type="button" value="Quote refresh" /><br />        
+        <label>QuoteID</label><input id="QuoteID" type="text" /><br />
+        <label>Quote</label><input id="Quote" type="text" /><br />
+        
+        <input id="QuoteAdd" type="button" value="Quote add" /><br />
+        <input id="QuoteEdit" type="button" value="Quote edit" /><br />
+        <input id="QuoteDelete" type="button" value="Quote delete" />
+          
+        <script src="main.js"></script>
+    </body>
+</html>

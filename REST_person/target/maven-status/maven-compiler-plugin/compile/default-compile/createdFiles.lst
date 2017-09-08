@@ -1,0 +1,8 @@
+facade\FacadePerson.class
+facade\InterfaceFacadePerson.class
+deploy\DeploymentConfiguration.class
+rest\ApplicationConfig.class
+converter\JSONConverter.class
+entity\Person.class
+converter\InterfaceJSONConverter.class
+rest\RestPerson.class
